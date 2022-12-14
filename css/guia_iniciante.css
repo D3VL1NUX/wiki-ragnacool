@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+  
+}
+
+.guia-iniciante {
+  max-width: 375px;
+}
+
+.atalhos {
+  max-width: 700px;
+}
+
+
+dt a, dd a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.spanlink {
+  color: #000;
+}
+
+.interface p {
+  text-align: justify;
+}
+
+table {
+  font-size: 14px;
+}
+
+figure img {
+  width: 100%;
+  object-fit: cover;
+  border: solid 1px #ccc;
+}
+
+figure{
+  width: 200px;
+  border: solid 1px #ccc;
+  padding: 2px;
+}
+
+figcaption {
+  font-size: 12px;
+  padding: 2px;
+}
+
+.status2 {
+  width: 100px;
+  border: solid 1px #ccc;
+  padding: 2px;
+}
+
+.figure-img{
+  width: 500px;
+}
+
+.quests {
+  width: 300px;
+}

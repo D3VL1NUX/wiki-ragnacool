@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(238, 233, 233);
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+}
+
+.header-container {
+  width: 100%;
+  height: 300px;
+}
+
+.header img {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info1, .info2 {
+  border: solid 1px rgb(162, 169, 177);
+  width: 50%; 
+}
+
+.info1 p {
+  padding: 20px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: rgb(32, 33, 34);
+  font-size: 15px;
+}
+
+.info1 p a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-left: 10px;
+}
+
+.info1 h2, .info2 h2 {
+  background-color: #01365e;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 2px;
+}
+
+.div-container-info, .div-container-links {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.div-container-info, .div-container-links h3 {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.div-info, 
+.div-episodios, 
+.div-faq, 
+.div-doacao, 
+.div-regras {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.div.div-info a, 
+.div-episodios a,
+.div-faq a,
+.div-info a,
+.div-regras a,
+.div-doacao a
+{
+  text-decoration: none;
+  margin-left: 5px;
+  color: steelblue;
+}
+
+.div-container-links {
+  margin-left: 10px;
+}
+
+.data-base-links {
+  margin-top: 15px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.socias-img {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.cards {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cards .sistemas,
+.cards .guias,
+.cards .quests,
+.cards .outros
+{
+  border: solid 1px rgb(162, 169, 177);
+  width: 100%;
+}
+
+.cards .parceria,
+.cards .transparencia {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.cards .transparencia h2,
+.cards .guias h2,
+.cards .quests h2,
+.cards .outros h2,
+.cards .sistemas h2
+ {
+  background-color: #01365e;
+  color: #fff;
+  text-align: center;
+  padding: 1px;
+  font-size: 18px;
+}
+
+.cards a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 10px;
+  color: steelblue;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 200px;
+  width: 100%;
+  height: 70px;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .header {
+    height: 200px;
+    margin-top: -80px;
+  }
+
+  .header img {
+    margin: 0;
+    object-fit: contain;
+  }
+  
+  .info-container {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  .info1, .info2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .sistemas, .guias, .quests, .outros {
+    margin-bottom: 10px;
+  }
+}
